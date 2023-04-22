@@ -1,9 +1,9 @@
 frase = input("Digite una frase: ")
-na = "aáAÁ"
-ne = "eéEÉ"
-ni = "iíIÍ"
-no = "oóOÓ"
-nu = "uúUÚ"
+na = "aáAÁäÄ"
+ne = "eéEÉëË"
+ni = "iíIÍïÏ"
+no = "oóOÓöÖ"
+nu = "uúUÚüÜ"
 ca = 0
 ce = 0
 ci = 0
