@@ -1,7 +1,6 @@
 # 3. Simular el lanzamiento de N dados o de un dado N veces, e imprimir cuántas veces cayó cada cara. Mostrar el resultado con barra de asterisco.
-# Ejercicio No. 46: Dados.
 
-from random import randint
+import random
 
 c1 = ""
 c2 = ""
@@ -20,7 +19,7 @@ n6 = 0
 n = int(input("¿Cuántas veces se va a lanzar el dado?: "))
 
 for i in range(n):
-    cara = randint(1, 6)
+    cara = random.randint(1, 6)
     if cara == 1:
         c1 += "*"
         n1 += 1
