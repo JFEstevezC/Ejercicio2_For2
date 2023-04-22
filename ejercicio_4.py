@@ -1,4 +1,3 @@
-import random
 print("FACTORIAL")
 n=int(input("Esciba el número para el factorial "))
 fac = 1
